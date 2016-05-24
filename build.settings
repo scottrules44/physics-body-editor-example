@@ -21,7 +21,13 @@ settings =
 		iphone = { "Icon-*dpi.png", },
 		android = { "Icon.png", "Icon-Small-*.png", "Icon*@2x.png", },
 	},
-
+	plugins =
+	{
+		['plugin.physicsBodyEditor'] = 
+	    {
+	    	publisherId = 'com.scottrules44'
+	    },
+	},
 	--
 	-- iOS Section
 	--
